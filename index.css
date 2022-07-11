@@ -10,7 +10,7 @@ body{
 .navbar{
     height: 80px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 
 
@@ -29,6 +29,10 @@ nav .bar a{
 
 
 }
+#banner .searchBar i{
+    margin-right: 10px;
+    margin-left: 10px;
+}
 #banner{
     background-image: url('background2.jpg');
     height: 600px;
@@ -37,6 +41,11 @@ nav .bar a{
     z-index: 0;
     opacity: 0.9;
     /* top: 0px; */
+}
+#banner .logo img{
+    height: 50px;
+    padding-left: 20px;
+    background: transparent;
 }
 #banner .headings,#banner .btn{
     bottom: 0px;
@@ -67,6 +76,9 @@ nav .bar a{
     border-radius: 34px;
     border: transparent;
     font-weight: bold;
+}
+#banner .btn button:hover{
+    background-color: rgb(168, 93, 31);
 }
 
 #banner .headings h1,#banner .headings p{
